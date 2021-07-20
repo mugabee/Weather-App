@@ -9,6 +9,9 @@ import CoreLocation
 import Foundation
 
 public final class WeatherService: NSObject {
+    private let locationManager = CLLocationManager()
+    private let API_KEY = "cd39d0fd122aee0ccfaab49bb849017f"
+    private var completionHandler: (() -> Void)?
     
 }
 
@@ -28,7 +31,8 @@ struct APIWeather: Decodable {
     let iconName: String
     
     enum CodingKeys: String, CodingKey {
-        case desription
+        
+        case description
         case iconName = "main"
     }
     

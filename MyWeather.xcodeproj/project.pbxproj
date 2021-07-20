@@ -12,6 +12,7 @@
 		FA7A24C226A6B4D3000F41D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7A24C126A6B4D3000F41D3 /* Assets.xcassets */; };
 		FA7A24C526A6B4D3000F41D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7A24C426A6B4D3000F41D3 /* Preview Assets.xcassets */; };
 		FA7A24CE26A6B57B000F41D3 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7A24CD26A6B57B000F41D3 /* WeatherService.swift */; };
+		FA7A24D126A6C29D000F41D3 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7A24D026A6C29D000F41D3 /* Weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FA7A24C426A6B4D3000F41D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA7A24C626A6B4D3000F41D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA7A24CD26A6B57B000F41D3 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		FA7A24D026A6C29D000F41D3 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				FA7A24CD26A6B57B000F41D3 /* WeatherService.swift */,
 				FA7A24C126A6B4D3000F41D3 /* Assets.xcassets */,
 				FA7A24C626A6B4D3000F41D3 /* Info.plist */,
+				FA7A24D026A6C29D000F41D3 /* Weather.swift */,
 				FA7A24C326A6B4D3000F41D3 /* Preview Content */,
 			);
 			path = MyWeather;
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA7A24D126A6C29D000F41D3 /* Weather.swift in Sources */,
 				FA7A24C026A6B4CE000F41D3 /* ContentView.swift in Sources */,
 				FA7A24CE26A6B57B000F41D3 /* WeatherService.swift in Sources */,
 				FA7A24BE26A6B4CE000F41D3 /* MyWeatherApp.swift in Sources */,
