@@ -29,14 +29,14 @@ public final class WeatherService: NSObject {
             guard error == nil, let data = data else { return }
             if let response = try? JSONDecoder().decode(APIResponse.self, from: data) {
                 self.completionHandler?(Weather(response: response))
+                
             }
             
         }.resume()
-        
     }
 }
 
-struct APIResponse {
+struct APIResponse: Decodable {
     let name: String
     let main: APIMain
     let weather: [APIWeather]
