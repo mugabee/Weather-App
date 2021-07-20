@@ -13,6 +13,9 @@ struct WeatherView: View {
             Text("Los Angels")
                 .font(.largeTitle)
                 .padding()
+            Text("25°C")
+                .font(.system(size: 70))
+                .bold()
         }
     }
 }
