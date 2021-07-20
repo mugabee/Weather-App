@@ -13,6 +13,16 @@ public final class WeatherService: NSObject {
     private let API_KEY = "cd39d0fd122aee0ccfaab49bb849017f"
     private var completionHandler: ((Weather) -> Void)?
     
+    
+    public func loadWeatherData(_ completionHandler: @escaping((Weather) -> Void)){
+        self.completionHandler = completionHandler
+        locationManager.requestWhenInUseAuthorization()
+        locationManager.startUpdatingLocation()
+    }
+    private func makeDataRequest(forCoordinates coordinates: CLLocationCoordinate2D) {
+        guard  let urlStrinf =
+        "l"
+    }
 }
 
 struct APIResponse {
