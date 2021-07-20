@@ -7,15 +7,18 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct WeatherView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Text("Los Angels")
+                .font(.largeTitle)
+                .padding()
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        WeatherView()
     }
 }
