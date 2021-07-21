@@ -16,6 +16,10 @@ struct WeatherView: View {
             Text("25°C")
                 .font(.system(size: 70))
                 .bold()
+            Text("🌥")
+                .font(.largeTitle)
+                .padding()
+            Text("clear SKY")
         }
     }
 }
