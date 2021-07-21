@@ -31,12 +31,16 @@ public class WeatherViewModel: ObservableObject {
             
         }
     public func refresh() {
-        weatherService.loadWeatherData { Weather in
+        weatherService.loadWeatherData { weather in
             DispatchQueue.main.async {
-                self.cityName = Weather.city
-                self.temperature = "\(Weather.tempeature)°C"
+                self.cityName = weather.city
+            
+                self.temperature = "\(weather.tempeature)°C"
+                self.weatherDescription = weather.description.capitalized
+                Self.weatherIcon = iconMap[weather.iconName]
             }
             
         }
     }
 }
+
