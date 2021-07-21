@@ -11,8 +11,11 @@ import SwiftUI
 struct MyWeatherApp: App {
     var body: some Scene {
         WindowGroup {
+            let weatherService = WeatherService()
+            let viewModel = WeatherViewModel(weatherService: WeatherService)
             
-            WeatherView()
+            
+            WeatherView(viewModel: viewModel)
             
         }
     }
