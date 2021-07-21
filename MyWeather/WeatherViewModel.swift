@@ -7,6 +7,11 @@
 
 import Foundation
 
+private let defaultIcon = "?"
+private let iconMap = {
+    
+}
+
 public class WeatherViewModel: ObservableObject {
     @Published var cityName: String = "City Name"
     @Published var temperature: String = "--"
