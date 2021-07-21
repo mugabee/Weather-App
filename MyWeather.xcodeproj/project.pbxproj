@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA71EFD726A7EE4400D84152 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA71EFD626A7EE4400D84152 /* WeatherViewModel.swift */; };
 		FA7A24BE26A6B4CE000F41D3 /* MyWeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7A24BD26A6B4CE000F41D3 /* MyWeatherApp.swift */; };
 		FA7A24C026A6B4CE000F41D3 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7A24BF26A6B4CE000F41D3 /* WeatherView.swift */; };
 		FA7A24C226A6B4D3000F41D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7A24C126A6B4D3000F41D3 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA71EFD626A7EE4400D84152 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
 		FA7A24BA26A6B4CE000F41D3 /* MyWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA7A24BD26A6B4CE000F41D3 /* MyWeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWeatherApp.swift; sourceTree = "<group>"; };
 		FA7A24BF26A6B4CE000F41D3 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				FA7A24BD26A6B4CE000F41D3 /* MyWeatherApp.swift */,
 				FA7A24BF26A6B4CE000F41D3 /* WeatherView.swift */,
 				FA7A24CD26A6B57B000F41D3 /* WeatherService.swift */,
+				FA71EFD626A7EE4400D84152 /* WeatherViewModel.swift */,
 				FA7A24C126A6B4D3000F41D3 /* Assets.xcassets */,
 				FA7A24C626A6B4D3000F41D3 /* Info.plist */,
 				FA7A24D026A6C29D000F41D3 /* Weather.swift */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA71EFD726A7EE4400D84152 /* WeatherViewModel.swift in Sources */,
 				FA7A24D126A6C29D000F41D3 /* Weather.swift in Sources */,
 				FA7A24C026A6B4CE000F41D3 /* WeatherView.swift in Sources */,
 				FA7A24CE26A6B57B000F41D3 /* WeatherService.swift in Sources */,
