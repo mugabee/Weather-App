@@ -25,14 +25,12 @@ struct WeatherView: View {
                 .font(.largeTitle)
                 .padding()
             Text(viewModel.weatherDescription)
-        }.onAppear(perform: viewModel.refresh{
-            /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Code@*/ /*@END_MENU_TOKEN@*/
-        })
+        }.onAppear(perform: viewModel.refresh)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        WeatherView()
+        WeatherView(viewModel: WeatherViewModel(weatherService: WeatherService()))
     }
 }
